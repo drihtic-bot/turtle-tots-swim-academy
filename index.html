@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Swim Lessons | Drihti Challapalli</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --pool-blue: #0077be;
+            --water-light: #e0f2fe;
+            --deep-ocean: #00568a;
+            --whatsapp-green: #25D366;
+            --text-dark: #1a202c;
+        }
+
+        * { box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            background-color: #f7fafc;
+            color: var(--text-dark);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Hero Section */
+        header {
+            width: 100%;
+            background: linear-gradient(135deg, var(--pool-blue), var(--deep-ocean));
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .container {
+            width: 95%;
+            max-width: 500px;
+            margin-top: -30px; /* Overlap effect */
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
+        }
+
+        h2 { color: var(--pool-blue); margin-top: 0; font-size: 1.4rem; }
+        
+        /* Instructor Details Styling */
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #edf2f7;
+        }
+
+        .label { font-weight: bold; color: #4a5568; }
+
+        /* Buttons */
+        .btn {
+            display: block;
+            text-align: center;
+            padding: 18px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: transform 0.2s;
+            margin: 10px 0;
+        }
+
+        .btn-reg { background-color: var(--pool-blue); color: white; }
+        .btn-wa { background-color: var(--whatsapp-green); color: white; }
+        .btn:active { transform: scale(0.98); }
+
+        /* Certifications tags */
+        .badge-container { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 15px; }
+        .badge {
+            background: var(--water-light);
+            color: var(--deep-ocean);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        footer { margin: 40px 0; color: #a0aec0; font-size: 0.8rem; text-align: center; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 style="margin:0;">Turtle Tots Swimming Lessons</h1>
+    <p style="opacity: 0.9; margin-top: 5px;">Summer Swimming Excellence 2026</p>
+</header>
+
+<div class="container">
+    <div class="card">
+        <h2>Instructor Details</h2>
+        <div class="details-grid">
+            <div class="info-row">
+                <span class="label">Lead Instructor</span>
+                <span>Drihti Challapalli</span>
+            </div>
+            <div class="info-row">
+                <span class="label">Grade</span>
+                <span>Rising Sophomore (10th)</span>
+            </div>
+            <div class="info-row">
+                <span class="label">Student Ages</span>
+                <span>3 – 8 years</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>About the Program</h2>
+        <p style="font-size: 0.95rem; color: #4a5568; line-height: 1.5;">
+            Passionate competitive swimmer dedicated to teaching water confidence and basic safety. Lessons focus on stroke technique and water comfort in a fun, encouraging environment designed for toddlers and young children.
+        </p>
+        <div class="badge-container">
+            <div class="badge">CPR Certified</div>
+            <div class="badge">First Aid</div>
+            <div class="badge">AED Certified</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Get Started</h2>
+        <p style="font-size: 0.9rem; color: #718096; margin-bottom: 20px;">
+            Registration requires a completed form to secure your child's spot.
+        </p>
+        
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSevmDBIhht6bHzGhNPircPzmdekaiG1Nrp8W-SuZmV6V7P7cQ/viewform?usp=header" class="btn btn-reg">Register Here</a>
+        
+        <a href="https://chat.whatsapp.com/D4FdxMDvaH00XVx70gQ6yM" class="btn btn-wa">Join Parent WhatsApp Group</a>
+    </div>
+</div>
+
+<footer>
+    © 2026 Turtle Tots Swimming Lessons<br>
+    Providing a safe splash for every little swimmer.
+</footer>
+
+</body>
+</html>
